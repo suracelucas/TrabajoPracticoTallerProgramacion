@@ -12,8 +12,9 @@ dependencies {
     //Picasso
     implementation("com.squareup.picasso:picasso:2.71828")
     // Kotlin Coroutines
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
+    val coroutinesVersion = "1.5.0"
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutine s-core:$coroutinesVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutine s-android:$coroutinesVersion")
     val lifecycle_version = "2.4.0-alpha03"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version")
