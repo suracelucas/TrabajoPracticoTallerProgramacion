@@ -1,7 +1,8 @@
-package ar.edu.unlam.marvelmultiplataforma.android.model
+package ar.edu.unlam.marvelmultiplataforma.model
 
-class Character(
+data class Personaje (
     val name: String,
     val description: String,
     val thumbnailUrl: String
-)
+    )
+
