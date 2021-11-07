@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import ar.edu.unlam.marvelmultiplataforma.android.model.Character
 import ar.edu.unlam.marvelmultiplataforma.android.model.CharactersService
+import ar.edu.unlam.marvelmultiplataforma.model.Personaje
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -31,5 +32,5 @@ class CharactersViewModel(
 
 sealed class ScreenState{
     object Loading : ScreenState()
-    class ShowCharacters(val list: List<Character>) : ScreenState()
+    class ShowCharacters(val list: List<Personaje>) : ScreenState()
 }

@@ -1,6 +1,8 @@
 package ar.edu.unlam.marvelmultiplataforma.android.model
 
 import ar.edu.unlam.marvelmultiplataforma.android.BuildConfig
+import ar.edu.unlam.marvelmultiplataforma.model.CharactersRepository
+import ar.edu.unlam.marvelmultiplataforma.model.Personaje
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 
@@ -8,7 +10,7 @@ class CharactersService(
     private val charactersRepository: CharactersRepository
 ) {
 
-    suspend fun getCharacters(): List<Character> {
+    suspend fun getCharacters(): List<Personaje> {
         val timestamp = System.currentTimeMillis()
         return charactersRepository.getCharacters(
             timestamp,
