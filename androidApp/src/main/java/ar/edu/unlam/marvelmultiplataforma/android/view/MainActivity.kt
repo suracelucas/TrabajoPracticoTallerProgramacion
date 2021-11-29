@@ -11,7 +11,6 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ar.edu.unlam.marvelmultiplataforma.android.databinding.ActivityMainBinding
-import ar.edu.unlam.marvelmultiplataforma.android.model.Character
 import ar.edu.unlam.marvelmultiplataforma.model.Personaje
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch

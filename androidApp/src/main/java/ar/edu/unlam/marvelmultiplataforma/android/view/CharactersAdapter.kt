@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import ar.edu.unlam.marvelmultiplataforma.android.databinding.ListItemCharacterBinding
-import ar.edu.unlam.marvelmultiplataforma.android.model.Character
 import ar.edu.unlam.marvelmultiplataforma.model.Personaje
 
 class CharactersAdapter : RecyclerView.Adapter<CharacterViewHolder>() {
