@@ -3,7 +3,6 @@ package ar.edu.unlam.marvelmultiplataforma.android.view
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import ar.edu.unlam.marvelmultiplataforma.android.model.Character
 import ar.edu.unlam.marvelmultiplataforma.android.model.CharactersService
 import ar.edu.unlam.marvelmultiplataforma.model.Personaje
 import kotlinx.coroutines.CoroutineExceptionHandler
