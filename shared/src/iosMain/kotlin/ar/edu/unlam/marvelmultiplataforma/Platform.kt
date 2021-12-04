@@ -11,3 +11,7 @@ actual class Platform actual constructor() {
 actual fun initLogger(){
     Napier.base(DebugAntilog())
 }
+
+actual fun md5(string: String): String {
+    return ""
+}

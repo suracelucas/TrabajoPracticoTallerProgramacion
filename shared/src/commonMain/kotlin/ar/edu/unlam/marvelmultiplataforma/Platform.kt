@@ -5,3 +5,5 @@ expect class Platform() {
 }
 
 expect fun initLogger()
+
+expect fun md5(string: String): String
